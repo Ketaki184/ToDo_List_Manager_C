@@ -1,31 +1,32 @@
 # To-Do List Manager in C
 
-A menu-driven Data Structures project built using C.
+## Project Description
+A menu-driven To-Do List Manager developed using C programming
+and a singly linked list.
 
 ## Features
-- Add and display tasks
-- Mark tasks as completed
-- Delete and search tasks
-- Sort tasks by priority
-- Save and load tasks using file handling
+1. Add a task
+2. View all tasks
+3. Mark a task as completed
+4. Delete a task
+5. Search tasks by name
+6. Sort tasks by priority
+7. Save and load tasks using file handling
 
-## Data Structures and Concepts
-- Singly linked list
+## Concepts Used
+- Structures
+- Singly linked lists
 - Dynamic memory allocation
-- Traversal, searching, and sorting
+- Functions
+- Searching and sorting
 - File handling
 
-## Priority Levels
-1. High
-2. Medium
-3. Low
+## How to Compile
+Open the terminal in the project folder and run:
 
-## Compilation
-gcc main.c tasks.c file.c -o todo
+gcc main.c tasks.c file.c -o todo.exe
 
-## Run
-Windows:
-todo.exe
+## How to Run
+On Windows PowerShell, run:
 
-## Team Project
-Developed as a college Data Structures project in C.
+.\todo.exe
